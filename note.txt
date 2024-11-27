@@ -1,0 +1,39 @@
+Steps to Maximize the Benefits of the Problem-Solving Process:
+  Understand the Algorithm:
+    Carefully study the algorithm used in each problem and try to explain it in your own words.
+  Identify the Problem Pattern:
+    Don't focus on the individual question.
+    Recognize the underlying pattern in the problem. 
+    This will help you apply similar techniques to other problems.
+  Explore Other Solutions:
+    Look at different approaches, like: 
+      Solutions from the comments section. 
+      YouTube tutorials.
+      ChatGPT. 
+    This will give you insight into alternative methods and optimization opportunities.
+  Analyze Time and Space Complexity:
+    Always evaluate the time and space complexity of your solution to understand its efficiency.
+    This is crucial for:
+      Scaling solutions to handle larger inputs.
+      Training yourself to identify the correct complexity of your solutions.
+  Respect the Problem Order:
+    Start with the easier problems and gradually work your way up to the harder ones.
+    This helps:
+      Make the process enjoyable. 
+      Building a strong foundation in DSA and design patterns to tackle more complex challenges.
+  Practice Regularly:
+    Continuously solving problems is key to improving. 
+    Aim for variety to cover different types of algorithms and data structures.
+  Reflect on the Process:
+    After solving the problem, review your thought process and identify areas for improvement. 
+    Could you have optimized your solution or solved it in a different way?
+  Be Honest and Avoid Time-Wasting -I am still straggling with this attitude 🤭-:
+    If you're unable to solve a problem after a specific amount of time.
+      Generally after 1 to 2 hours of focused effort.
+        Don't hesitate to review the solution.
+    Acknowledge when you're stuck, it's part of the learning process. 
+      Studying the solution will help you understand new approaches and unblock your thinking.
+General Info:
+  In interviews, the focus is generally on solving medium-level problems within 45 min to 1 hour.
+    It's rare to encounter hard problems in interviews.
+      If you do, you'll usually be provided with hints to guide you.
