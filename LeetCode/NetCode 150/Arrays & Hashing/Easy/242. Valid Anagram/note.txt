@@ -1,0 +1,21 @@
+The Used Pattern:
+  Hashing / Frequency Counting.
+Time And Space Complexity:
+  Time Complexity value is O(n).
+    where -n- is the length of the array. This is because we traverse the array once.
+  Space Complexity value depends:
+    If all the string input characters are english lowercase letters.
+      The maximum numbers of keys will be 26.
+        In this case the Space Complexity is O(1).
+    If extended to Unicode characters. 
+      The space complexity would depend on the size of the character set.
+  Rare but Potential Case:
+    You may be asked to reduce the space complexity to O(1).
+      Regardless of the input character set. To achieve this, you can use the sorting approach:
+        Steps:
+          Sort both strings: 
+            Sorting rearranges the characters in lexicographical order.
+          The anagrams will have the exact same order of characters.
+          Compare the sorted strings: 
+            If they are identical, the strings are anagrams; otherwise, they are not.
+    Are sorting algorithm O(1) really???

@@ -3,7 +3,7 @@ The Used Pattern:
     Uses a hash map -or an object in JavaScript- to store and quickly look up elements.
   Commonly used in problems involving finding duplicates, intersections, or frequencies in arrays.
 Time And Space Complexity:
-  Time Complexity values is O(n).
+  Time Complexity value is O(n).
     where -n- is the length of the array. This is because we traverse the array once.
-  Space Complexity values is O(n).
+  Space Complexity value is O(n).
     as the hash map can store up to -n- unique numbers in the worst case.
