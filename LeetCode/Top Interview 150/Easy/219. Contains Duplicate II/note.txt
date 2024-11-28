@@ -1,0 +1,66 @@
+The Used Patterns:
+  Combination of Sliding Window and Hashing: 
+    Efficient and commonly used when the distance between elements needs to be considered.
+  Time and Space Complexity:
+    My Solution:
+      ./Solutions/my-solution.js
+        Time Complexity value is O(n).
+          where -n- is the length of the array. 
+          The loop iterates through the array once.
+          The hash map operations -insertions and lookups- take O(1) on average.
+        Space Complexity value is O(n).
+          As the hash map can store up to n entries in the worst case.
+    Outside solution enhanced by me:
+      ./Solutions/outside-solution.js
+      Time and Space Complexity:
+        Time Complexity value is O(n). 
+          Where -n- is the length of the array.
+          The loop runs once through the array.
+          Set operations -add, delete, has- take O(1) on average.
+      Space Complexity: 
+        O(k), as the size of the Set is limited to at most k elements at any given time.
+        It can be better than mine in the term of space complexity.
+          This solution use the Sliding Window Algorithm better than i did. 
+Sliding Window:
+  Is an algorithmic technique and a problem-solving pattern. 
+  Widely used to solve problems involving arrays, strings, or other sequences. 
+    Where you need to efficiently calculate something over a subset -window- of the input.
+  Sliding Window Technique:
+    Involves creating a window -a subrange of the input- that moves or slides over the input. 
+      The size of the window can either be fixed or variable, depending on the problem. 
+    As the window slides. 
+    The algorithm maintains relevant information about the elements within the window.
+      To solve the problem efficiently.
+        Avoiding the need to repeatedly process the entire range of elements.
+  When to may use it:
+    Compute something like sum, maximum, minimum, duplicates over contiguous subarrays/substrings.
+    The problem involves constraints on the size or properties of the window, for example: 
+      at most `k` elements, unique elements only.
+    A brute-force -straightforward- approach will process overlapping subarrays multiple times.
+      Leading to inefficiency.
+  Key Components of Sliding Window
+    Left and Right Pointers: These define the boundaries of the window.
+      The right pointer expands the window.
+        Adding new elements if available.
+      The left pointer shrinks the window.
+        Removing old elements that are no longer valid for the condition.
+    Window Size:
+      Fixed Window: 
+        The size of the window is predetermined, for example:
+          Find the maximum sum of any subarray of size `k`.
+      Dynamic Window: 
+        The size of the window changes based on the input or problem constraints, for example:
+          Find the smallest subarray with a sum greater than `x`.
+    Auxiliary Data Structures: 
+      Often, a hash map, set, or other structure is used. 
+      Used to store and efficiently query information about elements in the window, for example:
+        Their frequency, position, etc.
+  Advantages
+    Efficiency: Reduces nested loops (O(n²)) to a single loop (O(n)).
+    Simplicity: Focuses only on maintaining the current -window- of valid elements.
+    Flexibility: Can be adapted for fixed-size and dynamic-size problems.
+  Takeaways:
+    The Sliding Window is a powerful pattern for problems involving: 
+      Contiguous ranges or conditions on subsets of data.
+    It avoids redundant computation, making it highly efficient for large inputs.
+      By efficiently maintaining a window of elements and their properties.
