@@ -1,0 +1,41 @@
+The Used Pattern:
+  Hash Map -Dictionary- Lookup:
+    Often combined with the One-Pass Algorithm strategy.
+      One-Pass Algorithm strategy:
+        Processes the input data in a single iteration, without revisiting elements. 
+        Designed for efficiency, minimizing both time and space complexity.
+          By reducing the number of loops or passes over the data.
+        Key Features:
+          Single Iteration: 
+            The algorithm completes its task by iterating through the input once.
+          Real-Time Updates: 
+            Decisions or data structures like hash maps are updated as the iteration progresses.
+          Efficiency: 
+            Often used to solve problems in O(n) time.
+        Commonly used in problems involving:
+          Finding duplicates, intersections, or frequencies in arrays.
+    Why This Pattern?
+      Is ideal for problems requiring:
+        Efficiently checking for the presence of a specific value in a set of data.
+        Tracking previously seen elements during a single pass through the data.
+        Minimizing time complexity compared to brute-force approaches.
+    Common choice in problems involving pair sums, subarray sums, or duplicates.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+      where -n- is the length of the array. This is because we traverse the array once.
+    Space Complexity value is O(n).
+      as the hash map can store up to -n- unique numbers in the worst case.
+  Very important note i didn't think about:
+    Always think about te ability of checking and collecting data simultaneously:
+      Instead of splitting the process into two phases:
+        First pass: Collecting data.
+        Second pass: Checking conditions.
+      You perform the condition check in parallel while collecting the data.
+        This can significantly improve efficiency.
+          By eliminating the need for additional passes over the data.
+    Always look for opportunities to check conditions while collecting data if the problem allows.
+    This approach can: 
+      Simplify your code.
+      Optimize performance. 
+    Code Example, See the `twoSumFirstVersion` and the `twoSumThirdVersion` in the following file:
+      ./my-solutions.js
