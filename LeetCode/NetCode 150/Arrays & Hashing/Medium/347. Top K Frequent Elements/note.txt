@@ -1,0 +1,23 @@
+The Used Pattern:
+  Combination of hashing -frequency counter- and bucket sorting.
+    Hashing/Frequency Counter:**
+      The hash map is used to count the frequency of each number efficiently.
+      This step ensures that we know how many times each number appears in the array.
+    Bucket Sorting:
+      The frequency array acts as the buckets, where the index represents the frequency.
+      Numbers are grouped in these buckets based on their occurrence counts.
+      This leverages the fact that the frequency of any number will be between 1 and n.
+        Making the sorting step linear in time.
+    Why Both Patterns Are Needed:
+      Hashing/Frequency Counter: 
+        Handles the counting efficiently O(n).
+      Bucket Sorting: 
+        organizes the numbers by frequency without the overhead of traditional sorting. 
+          Allowing us to extract the top k elements efficiently.
+    Thus, this approach combines these two patterns to solve the problem optimally.
+  Time And Space Complexity:
+    Time Complexity value is O(n)
+    Space Complexity value is O(n) 
+Additional approaches to solve the problem:
+  Use normal sort operation upon the numbers frequency object.
+  Use Max Binary Heap -Max Priority Queue-.
