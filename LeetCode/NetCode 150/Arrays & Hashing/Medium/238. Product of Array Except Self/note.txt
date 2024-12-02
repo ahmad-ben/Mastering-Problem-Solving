@@ -1,0 +1,9 @@
+The Used Pattern:
+  Prefix and Suffix Product/Two-Pass Product Calculation.
+  Time And Space Complexity:
+    Time Complexity value is O(n)
+      -n- Represent the array length.
+    Space Complexity value is O(1) 
+      It's actually O(n) since we create an output with same size of the input.
+        But the exercise description continues the following phrase:
+          The output array does not count as extra space for space complexity analysis.
