@@ -1,25 +1,24 @@
 The Used Pattern:
   Hashing/Frequency Counting.
-    Time And Space Complexity:
-      ./Solutions/my-naive-solution.js
-        Time Complexity value is O(n² * m).
-          -n- Represents the number of the input items.
-          -m- Represents the length of the items.
-        Space Complexity value is O(n * m).
-          -n- Represents the size of the array.
-          -m- Represents the number of unique characters in each item.
-      ./Solutions/my-enhanced-solution.js
-        Time Complexity value is O(n * m * log m).
-          -n- Represents the number of the input items.
-          -m * log m- Sort each item in the array.
-        Space Complexity value is O(n * m).
-          -n- Represents the size of the array.
-          -m- Represents the number of unique sorted anagrams in the object.
-      ./Solutions/neetcode-solution.js
-        Time Complexity value is O(n * m).
-          -n- Represents the number of the input items.
-          -m- The iteration over each item to represent it as a ordered characters values.
-        Space Complexity value is O(n * m).
-          -n- Represents the size of the array.
-          -m- Represents the number of unique ordered characters values in the object.
-        
+  Time And Space Complexity:
+    ./Solutions/my-naive-solution.js
+      Time Complexity value is O(n² * m).
+        -n- Represents the number of the input items.
+        -m- Represents the length of the items.
+      Space Complexity value is O(n * m).
+        -n- Represents the size of the array.
+        -m- Represents the number of unique characters in each item.
+    ./Solutions/my-enhanced-solution.js
+      Time Complexity value is O(n * m * log m).
+        -n- Represents the number of the input items.
+        -m * log m- Sort each item in the array.
+      Space Complexity value is O(n * m).
+        -n- Represents the size of the array.
+        -m- Represents the number of unique sorted anagrams in the object.
+    ./Solutions/neetcode-solution.js
+      Time Complexity value is O(n * m).
+        -n- Represents the number of the input items.
+        -m- The iteration over each item to represent it as a ordered characters values.
+      Space Complexity value is O(n * m).
+        -n- Represents the size of the array.
+        -m- Represents the number of unique ordered characters values in the object.

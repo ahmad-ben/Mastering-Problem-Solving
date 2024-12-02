@@ -1,0 +1,8 @@
+The Used Pattern:
+  Hashing/Frequency Counting.
+  Time And Space Complexity:
+    Time Complexity value is O(n²)
+    Space Complexity value is O(n²) 
+      The board size n × n, where -n- is the board's dimension.
+      The approach scales quadratically with  n. 
+        Which is optimal for problems involving  n * n grids.
