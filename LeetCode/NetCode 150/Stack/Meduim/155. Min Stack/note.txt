@@ -1,0 +1,10 @@
+The Used Pattern:
+  Stack Data Structure.
+  Time And Space Complexity:
+    Time Complexity value is O(1)
+    Space Complexity value is O(n)
+  Takeaway:
+    Always focus in the output that the exercise asking for.
+    Asking ChatGpt if your code is optimal and achieve the requirement it's a good idea.
+    Try to draw the algorithm process you are working with, along with its process in each step.
+      That may help you discover new improvement or potential error.
