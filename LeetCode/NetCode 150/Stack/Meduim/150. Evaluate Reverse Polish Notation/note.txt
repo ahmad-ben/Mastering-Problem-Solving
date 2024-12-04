@@ -1,0 +1,5 @@
+The Used Pattern:
+  Stack Data Structure.
+  Time And Space Complexity:
+    Time Complexity value is O(1)
+    Space Complexity value is O(n)
