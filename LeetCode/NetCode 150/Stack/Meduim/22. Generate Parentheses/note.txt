@@ -1,0 +1,50 @@
+The Used Pattern:
+  Backtracking.
+  Time And Space Complexity:
+    Time Complexity value is O(4ⁿ/√n)
+    Space Complexity value is O(4ⁿ/√n)
+Backtracking Pattern:
+  General algorithmic approach used to solve problems involving:
+    Searching through all possible combinations.
+    Pruning invalid or non-optimal options early.
+    Generating solutions incrementally.
+  Its essence is trial and error while systematically exploring all possibilities. 
+    It is often used for problems where:
+      The solution space is vast but can be navigated systematically.
+      You need to generate all possible valid solutions like subsets, permutations, combinations.
+      Constraints help prune the search space.
+  Components of Backtracking:
+    Recursive Exploration:
+      A backtracking algorithm typically uses recursion to explore different states or choices.
+      At each step, the algorithm decides whether to -proceed- or -backtrack-.
+    State Variables:
+      State variables track progress, such as: 
+        The current partial solution.
+        The remaining options.
+        Constraints.
+    Pruning:
+      Constraints are applied at each step to eliminate invalid choices, reducing the search space.
+    Base Case:
+      The recursion stops when a valid solution is found or all options are exhausted.
+    Backtracking Step:
+      After exploring one path, the algorithm -backs up- to explore alternative paths.
+  When Backtracking is Effective:
+    The search space is large but can be reduced significantly by pruning.
+    Solutions can be built incrementally, and invalid solutions can be rejected early.
+  Real-World Problems Where Backtracking is Used:
+    Combinatorial Generation:
+      Subsets, permutations, combinations, parenthesis generation.
+    Constraint Satisfaction:
+      Sudoku, N-Queens, crossword puzzles.
+    Pathfinding:
+      Maze problems, graph traversal with constraints.
+  Backtracking vs Other Patterns:
+    Dynamic Programming:
+      Backtracking is recursive like DP but focuses on exploring possibilities without memoization.
+      DP is used when subproblems overlap and caching can optimize.
+    Brute Force:
+      Explores all possible combinations without pruning invalid paths. 
+      Backtracking does the same but intelligently skips invalid or unnecessary paths.
+  When You shouldn't Use It:
+    If the problem doesn’t allow for incremental solution building.
+    If there are overlapping subproblems that can be solved more efficiently with DP.

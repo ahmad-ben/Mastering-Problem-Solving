@@ -33,6 +33,14 @@ Steps to Maximize the Benefits of the Problem-Solving Process:
         Don't hesitate to review the solution.
     Acknowledge when you're stuck, it's part of the learning process. 
       Studying the solution will help you understand new approaches and unblock your thinking.
+  Ask important questions:
+    After finish each problem try to ask yourself some critical questions like:  
+      What's the one thing knowing it make the problem easier.
+      If you have inefficient solution, ask yourself:
+        Why i didn't think about the optimal solution?
+          My approach problem.
+        How can i discovered the most efficient solution in the next time.
+          Action taking to avoid the same mistake.
 General Info:
   In interviews, the focus is generally on solving medium-level problems within 45 min to 1 hour.
     It's rare to encounter hard problems in interviews.
