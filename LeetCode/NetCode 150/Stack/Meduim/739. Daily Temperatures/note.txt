@@ -1,0 +1,13 @@
+The Used Pattern:
+  Stack Data Structure.
+  Time And Space Complexity:
+    Time Complexity value is O(n)
+    Space Complexity value is O(n)
+  Takeaway:
+    If you have a kind of data you want to go through:
+      Try to think about starting from different places, for example:
+        If you have an array think about starting from the end.
+    For each kind of data you store or process you do:
+      Try to get the maximum info and benefit from it.  
+      Make sure you really need it -100% necessary for the solution-.
+      Make sure you can't use a more optimal way to get the same purpose that it serves.

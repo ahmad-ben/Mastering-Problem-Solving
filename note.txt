@@ -41,6 +41,8 @@ Steps to Maximize the Benefits of the Problem-Solving Process:
           My approach problem.
         How can i discovered the most efficient solution in the next time.
           Action taking to avoid the same mistake.
+        Do i have any kind of data/logic i can rely on to make my solution even better.
+          Think about what does each piece of data/logic mean and provide.
 General Info:
   In interviews, the focus is generally on solving medium-level problems within 45 min to 1 hour.
     It's rare to encounter hard problems in interviews.
