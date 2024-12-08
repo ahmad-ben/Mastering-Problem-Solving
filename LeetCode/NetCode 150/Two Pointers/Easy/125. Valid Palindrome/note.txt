@@ -1,0 +1,13 @@
+The Used Pattern:
+  Two-Pointer Technique.
+    Definition: 
+      This pattern involves using two pointers. 
+      Typically starting at opposite ends of a sequence like an array or string. 
+        Then moving toward each other to solve the problem in linear time.
+    Purpose: 
+      Efficiently reduces the need for nested loops. 
+        By focusing on comparing elements from both ends simultaneously.
+    Tips for Using it:
+      Start by identifying the relationship between elements you need to process.
+      Define the movement rules for each pointer based on the problem’s requirements.
+      Test edge cases, especially for overlapping pointers or when pointers meet.
