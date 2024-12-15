@@ -1,0 +1,14 @@
+The Used Pattern:
+  Sliding Window.
+  Time And Space Complexity:
+    All Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1)
+  Takeaway:
+    Always check the kind of input you have in the problem, and that's for:
+      Consider the edge cases checking. 
+      Think if you can use the input limitation information to achieve the optimal solution.
+        For example:
+          In this case since our input consists of English lowercase letters: 
+            We can think about using an array to store the input data in a specific case.
+              Surely if our solution need to.

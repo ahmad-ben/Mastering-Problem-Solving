@@ -10,7 +10,7 @@ The Used Patterns:
           The hash map operations -insertions and lookups- take O(1) on average.
         Space Complexity value is O(n).
           As the hash map can store up to n entries in the worst case.
-    LeetCode user solution enhanced by me:
+    LeetCode User Solution enhanced by me:
       ./Solutions/leetcode-user-solution.js
       Time and Space Complexity:
         Time Complexity value is O(n). 

@@ -4,6 +4,6 @@ The Used Pattern:
     My Solution:
       Time Complexity value is O(n)
       Space Complexity value is O(1)
-    Constructor Solution:
+    Neetcode Solution:
       Time Complexity value is O(26 * n) ≈ O(n)
       Space Complexity value is O(1)
