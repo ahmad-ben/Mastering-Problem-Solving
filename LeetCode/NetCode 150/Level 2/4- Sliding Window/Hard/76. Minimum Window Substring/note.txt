@@ -1,0 +1,16 @@
+The Used Pattern:
+  Sliding Window.
+  Time And Space Complexity:
+    Time Complexity value is O(n)
+      `n` is the length of the string 
+    Space Complexity value is O(m)
+      `m` is the total number of unique characters in the strings.
+  Takeaway:
+    If you have a process that take from you an O(n) and you want to make it more efficient:
+      Think about what you are asking for by this process -Your purpose, the wanted data-.
+      Can you achieve this wanted data without this process.
+        For example by keep track of this data in the changing time.
+          Real example:
+            To get the index of an item in an array that's O(n).
+            But if you save the index of the item along with it in an object in the insertion time. 
+              That will be O(1).

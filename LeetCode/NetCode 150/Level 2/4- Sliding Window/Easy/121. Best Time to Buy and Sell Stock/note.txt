@@ -16,7 +16,7 @@ The Used Pattern:
         Longest subString with unique characters (dynamic window size).
         Smallest subArray with a sum greater than or equal to a target.
       Complexity:
-        Typically O(n), as each pointer moves through the array once.:
+        Typically O(n), as each pointer moves through the array once.
   Time And Space Complexity:
     Time Complexity value is O(n)
     Space Complexity value is O(1) 
