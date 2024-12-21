@@ -4,9 +4,7 @@
  */
 
 var maxProfit = function(prices) {
-  let buyPrice;
-  let maxSellPrice = 0;
-  let maxBenefitVal = 0;
+  let maxSellPrice = 0, maxBenefitVal = 0;
 
   for(i = 0; i < prices.length - 1; i++){
     const buyPrice = prices[i];

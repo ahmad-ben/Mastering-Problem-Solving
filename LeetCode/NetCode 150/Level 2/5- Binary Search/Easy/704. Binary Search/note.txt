@@ -1,0 +1,32 @@
+The Used Pattern:
+  Binary Search.
+    Foundational algorithmic pattern.
+    Used to solve problems that involve searching or determining a target value. 
+      Within a sorted or monotonic dataset. 
+    Its approach leverages the divide-and-conquer principle.
+      Narrowing down the search space by splitting it in half during each iteration.
+    Core Characteristics:
+      Sorted Input -or Monotonicity-:
+        Operates on data that is sorted or exhibits a monotonic property.
+          Values either consistently increase or decrease. 
+        This property ensures that the search space can be divided meaningfully.
+      Divide and Conquer:
+        The search space is halved in each step. 
+          By calculating a midpoint and comparing its value to the target.
+        Depending on the result of the comparison, one half of the space is discarded.
+          Reducing the problem size exponentially.
+      Iterative or Recursive Approach:
+        Iterative Implementation: 
+          Uses pointers or indices to manage the current search range.
+        Recursive Implementation: 
+          Calls itself with updated bounds until the base condition is met.
+      Logarithmic Time Complexity:
+        By halving the search space in every step.
+          Binary search achieves a time complexity of O(log n).
+        Making it highly efficient for large datasets.
+      Constant Space Complexity:
+        The iterative form of binary search operates in O(1) space.
+          Using only a few variables to track the current search range.
+  Time And Space Complexity:
+    Time Complexity value is O(log n)
+    Space Complexity value is O(1) 
