@@ -3,5 +3,5 @@ The Used Pattern:
   Time And Space Complexity:
     Time Complexity value is O(n)
       `n` is the length of the string.
-    Space Complexity value is O(m)
-      `m` is the total number of unique characters in the string.
+    Space Complexity value is O(n)
+      `n` is the length of the string.
