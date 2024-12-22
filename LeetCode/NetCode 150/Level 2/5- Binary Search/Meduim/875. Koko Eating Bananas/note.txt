@@ -1,0 +1,6 @@
+The Used Pattern:
+  Binary Search.
+  Time And Space Complexity:
+    Time Complexity value is O(n log m)
+      `n` is the length of the input array, and `m` is the maximum number of bananas in a pile.
+    Space Complexity value is O(1) 
