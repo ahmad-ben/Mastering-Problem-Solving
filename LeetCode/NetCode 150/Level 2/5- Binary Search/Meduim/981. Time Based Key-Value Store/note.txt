@@ -1,0 +1,11 @@
+The Used Pattern:
+  Sliding Window.
+  Time And Space Complexity:
+    Get method:
+      Time Complexity value is O(1)
+      Space Complexity value is O(K)
+        K is the total calls to set, across all keys. 
+          Because each call creates and stores a single {timestamp, value} object.
+    Set method:
+      Time Complexity value is O(log n)
+      Space Complexity value is O(1)
