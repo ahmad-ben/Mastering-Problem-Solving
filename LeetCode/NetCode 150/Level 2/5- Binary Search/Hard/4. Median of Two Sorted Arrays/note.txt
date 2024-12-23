@@ -1,0 +1,5 @@
+The Used Pattern:
+  Binary Search.
+  Time And Space Complexity:
+    Time Complexity value is O(log(min(m, n)))
+    Space Complexity value is O(1) 
