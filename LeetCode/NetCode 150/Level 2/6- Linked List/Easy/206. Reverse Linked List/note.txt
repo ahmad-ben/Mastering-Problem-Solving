@@ -1,0 +1,10 @@
+This Used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Iterative Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1) 
+    Recursive Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(n)
+        For each node in out Singly Linked List we will have a function in the stack.
