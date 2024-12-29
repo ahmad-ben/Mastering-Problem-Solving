@@ -7,4 +7,4 @@ This Used Data Structure:
     Recursive Solutions:
       Time Complexity value is O(n)
       Space Complexity value is O(n)
-        For each node in out Singly Linked List we will have a function in the stack.
+        For each node in our Singly Linked List we will have a function in the stack.
