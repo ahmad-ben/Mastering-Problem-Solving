@@ -1,0 +1,16 @@
+This Used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Iterative solutions:
+      Time Complexity value is O(n + m)
+        n  is the number of nodes in the first linked list.
+        m  is the number of nodes in the second linked list.
+      Space Complexity value is O(1) 
+        The solution only uses a few pointers and a dummy node for the merged list.
+        It does not create new nodes for the merged list.
+          It rearranges the next pointers of the existing nodes in list1 and list2.
+    Recursive solutions:
+      Time Complexity value is O(n + m)
+      Space Complexity value is O(n + m)
+        Each recursive call is added to the call stack.
+        In the worst case, the recursion depth equals the total number of nodes in the two lists.
