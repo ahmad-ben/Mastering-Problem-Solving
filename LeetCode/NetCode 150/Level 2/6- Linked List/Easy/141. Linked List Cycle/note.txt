@@ -1,0 +1,12 @@
+The used Data Structure:
+  Singly Linked List.
+The used Algorithm:
+  Floyd’s cycle finding algorithm, also called Hare-Tortoise algorithm: 
+    Pointer algorithm that uses only two pointers, moving through the sequence at different speeds.
+  Time And Space Complexity:
+    Memory-based Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(n)
+    Hare-Tortoise algorithm Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1)

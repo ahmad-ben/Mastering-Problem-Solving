@@ -1,4 +1,4 @@
-This Used Data Structure:
+The used Data Structure:
   Singly Linked List.
   Time And Space Complexity:
     Iterative solutions:
