@@ -1,0 +1,12 @@
+The used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Memory-based Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(n)
+    In-place modification Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1)
+  Takeaway:
+    If you want to go in the opposite direction your pointers follow, think about reverse the list.
+      
