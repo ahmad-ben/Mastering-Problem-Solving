@@ -1,0 +1,19 @@
+The used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Memory-based Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(n)
+    One Pass Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1)
+  Takeaway:
+    If you want to solve a problem and you don't know any information, try to:
+      Ask yourself can you assume that you know the answer and move-on in your solution.
+        Until you really discover the correct answer.
+    If you have an unknown info that you want to rely on in order to find another info:
+      Try to act like you already know that info from the given data.
+      Try to build the other info from that points.
+      As your assumed info changed to be more accurate remember to: 
+        Correct the other info those rely on it. 
+      Discover the correct info as you go, and see if this is suitable for your situation.
