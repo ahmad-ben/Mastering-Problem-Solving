@@ -1,0 +1,10 @@
+The used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Memory-based Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(n)
+    Memory Optimized Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1)
+        Since we enforced to create a new deep copy of the SLL i didn't count it.
