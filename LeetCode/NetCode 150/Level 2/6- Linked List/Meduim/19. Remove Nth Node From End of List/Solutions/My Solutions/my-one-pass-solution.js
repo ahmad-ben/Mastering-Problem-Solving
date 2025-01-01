@@ -13,9 +13,10 @@
 var removeNthFromEnd = function(head, n) {
   let beforeRemovedNode = null, currentEnd = head;
 
+  // Create the space between the tail and the node before the deleted. 
   for(i = 1; i < n; i++) currentEnd = currentEnd.next;
   
-  // We assume the the current node is the last node.
+  // Preserve the space by moving the 2 pointers until the end.
   while(currentEnd.next){
     if(!beforeRemovedNode) beforeRemovedNode = head;
     else beforeRemovedNode = beforeRemovedNode.next;
@@ -23,15 +24,11 @@ var removeNthFromEnd = function(head, n) {
     currentEnd = currentEnd.next;
   }
 
-  let removedNode = beforeRemovedNode?.next;
-  if(beforeRemovedNode){
-    beforeRemovedNode.next = removedNode.next;
-    removedNode.next = null;
-  }else{
-    const oldHead = head;
-    head = head.next;
-    oldHead.next = null
-  }
+  // If the node before the deleted one dons't exist that means we want to delete the head node.   
+  if(!beforeRemovedNode) head = head.next;
+  // We just make the node before the deleted points to the node after the deleted.
+  // 1 -> 2 -> 3 => 1 -> 3
+  else beforeRemovedNode.next = beforeRemovedNode.next.next;
 
   return head;
 };

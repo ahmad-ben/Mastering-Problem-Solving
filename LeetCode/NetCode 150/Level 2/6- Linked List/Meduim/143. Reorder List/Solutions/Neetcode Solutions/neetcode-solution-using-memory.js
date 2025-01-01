@@ -13,7 +13,7 @@ const reorderList = head => {
   while (i < j) {
     nodes[i].next = nodes[j];
     i++;
-    if (i >= j) break;
+    if (i >= j) break; // No need for >= it's enough to be just ===.
     nodes[j].next = nodes[i];
     j--;
   }
