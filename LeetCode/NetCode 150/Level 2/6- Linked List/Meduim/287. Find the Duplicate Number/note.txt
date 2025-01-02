@@ -1,0 +1,6 @@
+The used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Memory-based Solutions:
+      Time Complexity value is O(n)
+      Space Complexity value is O(1)
