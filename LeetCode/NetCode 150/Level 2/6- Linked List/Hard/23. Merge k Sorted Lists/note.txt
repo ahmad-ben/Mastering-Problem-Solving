@@ -1,0 +1,30 @@
+The used Data Structure:
+  Singly Linked List.
+  Time And Space Complexity:
+    Array Solutions:
+      Time Complexity value is O(n * m).
+      Space Complexity value is O(n + m).
+        `n` is the number of nodes in total.
+        `m` is the number of linked list in total.
+    Recursive / Min Priority Queue Solutions:
+      Time Complexity value is O(n * log m).
+      Space Complexity value is O(log m).
+        `n` is the number of nodes in total.
+        `m` is the number of linked list in total.
+    Iterative Solution:
+      Time Complexity value is O(n * log m).
+      Space Complexity value is O(m).
+        `n` is the number of nodes in total.
+        `m` is the number of linked list in total.
+  Takeaway:
+    Priority Queue -PQ-:
+      If you care about the Min / Max number in a DS and not the total sorting think of:
+        Min / Max Priority Queue.
+          It's a (log n) for enqueue and dequeue instead of (n log n) for total sorting.
+      The Priority Queue is a great opportunity if you:
+        Care of one item in time.
+        Have the ability start a new array or similar DS from beginning.
+          To have the ability to apply the PQ.
+    Sorting sorted DSs:
+      If you already have a sorted DSs and you want to sort them all think of Merged Sort.
+        It will help you move from O(n²) to O(n * log n)
