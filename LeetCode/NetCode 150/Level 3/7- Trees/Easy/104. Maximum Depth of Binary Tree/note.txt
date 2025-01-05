@@ -1,0 +1,26 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Neetcode Recursive Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(n).
+        `n` is the number of nodes.
+    Other Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(log n) Or O(n).
+        `n` is the number of nodes.
+        If we have: 
+          Skewed tree, so we are talking about the worst case, it will be:
+            O(n).
+          Balanced tree, so we are talking about the average case, it will be:
+            O(log n).
+  Takeaway:
+    In BFS/DFS process we can face the situation of having different nodes level in our DS.
+      Usually a Queue/Stack DS.
+      If you care about a specific kind of data for each level or node: 
+        Think about store it with the node in the DS.
+      Example:
+        ./Solutions/Neetcode Solutions/neetcode-iterative-dfs-stack-solution.js
+    As a sign of tree end you can check the two pointers of the current node, and that's fine.
+      But it may be better to check the node itself if it's null and avoid checking for 2 pointers.
+        Always try to see if you can do the previous technique, it can make your life much easier.
