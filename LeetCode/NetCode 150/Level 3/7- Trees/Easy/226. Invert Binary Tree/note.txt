@@ -1,0 +1,19 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Neetcode Recursive Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(n).
+        `n` is the number of nodes.
+    Other Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(log n) Or O(n).
+        `n` is the number of nodes.
+        If we have: 
+          Skewed tree, so we are talking about the worst case, it will be:
+            O(n).
+          Balanced tree, so we are talking about the average case, it will be:
+            O(log n).
+  Takeaway:
+    If you have a lot of linked list edge cases: 
+      Think about using dummy nodes, they may make your life much easier. 
