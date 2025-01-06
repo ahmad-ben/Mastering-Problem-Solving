@@ -1,0 +1,7 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is: 
+      O(log n) for a Balanced Tree -Average case-.
+      O(n) for a Skewed Tree -Worst case-.
