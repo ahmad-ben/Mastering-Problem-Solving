@@ -1,0 +1,22 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Optimal Solutions:
+      Time Complexity value is O(h).
+        `h` is the tree height.
+        In a balanced tree is basically O(log n).
+      Space Complexity value is O(1).
+    Neetcode dfs Solution:
+      Time Complexity value is O(h).
+      Space Complexity value is O(h).
+    My dfs Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(h).
+  Takeaway:  
+    In case of using a recursion function, we should always thing of:
+      What the function should do.
+        What kind of work that's repetitive in each time.
+      What the function should return. 
+      What the base case we should stop on. 
+    If you have a binary search tree, always try to use its properties.
+      Aiming to get the most optimal solution.
