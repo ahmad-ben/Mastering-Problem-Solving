@@ -1,0 +1,15 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Neetcode Pattern Match Solution:
+      Time Complexity value is O(n + m).
+      Space Complexity value is O(n + m).
+    Other Solutions:
+      Time Complexity value is O(n * m).
+      Space Complexity value is O(n + m).
+  Takeaway:
+    If you want to preserve a value during the recursive call, you can: 
+      Pass it during the recursive functions you run.
+    If the logic that you trying to apply is very complex think about:
+      Creating one or more helper function.
+      Use more than one recursive function to simplify the process and separate your concerns.
