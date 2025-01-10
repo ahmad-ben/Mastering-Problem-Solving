@@ -1,0 +1,26 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Dfs Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(h).
+        `h` is the tree height.
+          In a balanced tree is O(log n).
+          In a skewed tree it can be O(n).
+    Bfs Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(n).
+  Takeaway:  
+    BFS approach, problems and solutions:
+      How to separate between the nodes of different levels in our queue:
+        Store the size of the Queue in the beginning of each loop process.
+          Before applying this approach or any other approach: 
+            Ask yourself if you really need it.
+      How to preserve a value from the previous level:
+        Store the wanted value along with each node in your queue.
+          In this case you may not need to separate the levels anymore.
+    DFS:
+      In case: 
+        You want to pass a value to a node. 
+        This value it belongs to the path between this node and the root.
+          You can simply pass it through the recursive call.
