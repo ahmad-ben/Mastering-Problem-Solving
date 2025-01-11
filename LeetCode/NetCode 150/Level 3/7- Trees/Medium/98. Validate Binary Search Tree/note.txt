@@ -1,0 +1,10 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    My In Order Traversal Solution And Neetcode BFS Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(n).
+    My Solution Without Array And Neetcode DFS Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(h).
+        `h` is the tree height.
