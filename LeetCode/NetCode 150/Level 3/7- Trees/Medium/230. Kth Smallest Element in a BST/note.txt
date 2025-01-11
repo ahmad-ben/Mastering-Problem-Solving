@@ -1,0 +1,11 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    DFS Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(h).
+        `h` is the tree height.
+    Stack Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(h).
+        `h` is the tree height.
