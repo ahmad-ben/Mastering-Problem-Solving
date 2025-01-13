@@ -1,0 +1,6 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is O(h).
+      `h` is the height of the tree.
