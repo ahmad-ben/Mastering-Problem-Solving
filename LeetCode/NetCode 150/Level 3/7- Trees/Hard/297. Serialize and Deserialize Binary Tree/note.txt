@@ -1,0 +1,15 @@
+The used Data Structure:
+  Trees.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is O(n).
+  Takeaway:
+    When working with trees, if you feel the need for a stack.
+      To temporarily hold values until a specific condition or point is met. 
+        Consider using Depth-First Search -DFS-.
+          DFS naturally uses the call stack during recursion. 
+            Effectively storing values along the way.
+          This approach can reduce the need for an explicit stack. 
+            Leveraging recursion to manage the traversal and decision-making process.
+      See:
+        ./Solutions/neetcode-solution.js
