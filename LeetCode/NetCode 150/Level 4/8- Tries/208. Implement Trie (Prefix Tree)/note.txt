@@ -1,0 +1,7 @@
+The used Data Structure:
+  Trie.
+  Time And Space Complexity:
+    Time Complexity value is O(n)
+      `n` is the length of the string.
+    Space Complexity value is O(t) 
+      `t` is the total number of nodes created in the Trie.
