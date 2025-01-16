@@ -1,0 +1,75 @@
+I used this file to help me: 
+  Drawing the trie.
+  Write my Pseudocode.
+  Have a visualization monitoring: 
+    Tracking any issue.
+    Having a deep understanding of the approach i am thinking about.
+===================================================================================================
+Parameters:
+  Adding the following words:
+    address, adapt, adult, adolf.
+  Search with the following word:
+    Ad**f.
+Tree:
+  Root   
+  └── a
+      └── d
+          └── d
+              └── r
+              │   └── e
+              │       └── s
+              │           └── s (word ends here for "address")
+              a
+              └── p
+              |   └── t (word ends here for "adapt")
+              u
+              └── l
+              |   └── t (word ends here for "adult")
+              o
+              └── l
+                  └── f (word ends here for "adolf")
+Pseudocode:
+  Search for ad**f |||Root Characters|||
+    Search for a in the following array: [{char: a, isWord: false}]
+      Find it in the first element char obj.
+  Search for d**f |||a Characters|||
+    Search for d in the following array: [{char: d, isWord: false}]
+      Find it in the first element char obj.
+  Search for **f  |||d Characters|||
+    In the following array:
+      [{char: {d, a, u, o}, isWod: false}]
+    Since it * that means: 
+      all the next paths of the exist path are valid
+        So follow thw following steps:
+          Loop ove all the array element -paths-.
+          For each path loop over all of its characters.
+          For each character there create new element.
+            the following array is: [
+              {char: r, isWord: false}, 
+              {char: p, isWord: false}, 
+              {char: l, isWord: false},
+              {char: l, isWord: false}
+            ]
+  Search for *f
+    Since it * that means: 
+      all the next paths of the exist path are valid
+        So follow thw following steps:
+          Loop ove all the array element -paths-.
+          For each path loop over all of it characters and add it as a new path.
+            the following array is: [
+              {char: e, isWord: false}, 
+              {char: t, isWord: false}, 
+              {char: t, isWord: false},
+              {char: f, isWord: false}
+            ]
+  Search for f
+    Search for f in the following array:
+      [
+        {char: e, isWord: false}, => Remove
+        {char: t, isWord: false},  => Remove
+        {char: t, isWord: false},  => Remove
+        {char: f, isWord: false}   => Keep
+      ]
+  We finish with the following array |||f Characters -Info-|||:
+    [{char: , isWod: true}]
+  Loop over the array is one isWord is true return true.

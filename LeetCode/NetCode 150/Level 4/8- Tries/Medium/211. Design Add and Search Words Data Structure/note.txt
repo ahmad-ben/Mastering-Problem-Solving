@@ -1,0 +1,23 @@
+The used Data Structure:
+  Trie.
+  Time And Space Complexity:
+    All Solutions:
+      WordDictionary:
+        Time Complexity value is O(1)
+        Space Complexity value is O(1) 
+      addWord:
+        Time Complexity value is O(n)
+        Space Complexity value is O(n) 
+    My Solutions:
+      My Array Solution:
+        search:
+          Time Complexity value is O(n)
+          Space Complexity value is O(1) 
+      My DFS Solution:
+        search:
+          Time Complexity value is O(n)
+          Space Complexity value is O(n) 
+    Neetcode Solution:
+      search:
+        Time Complexity value is O(n)
+        Space Complexity value is O(n) 
