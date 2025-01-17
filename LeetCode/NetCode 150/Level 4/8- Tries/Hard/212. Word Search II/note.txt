@@ -1,0 +1,11 @@
+The used Data Structure:
+  Trie.
+  // Later:
+    Add the time and space complexity of this problem.
+    Understand why: 
+      My solutions along with Neetcode solutions didn't work, but chatgpt solution did.
+  Takeaway:
+    If you: 
+      Have a prefix -word beginning for example-. 
+      You want to get all the possibilities of that prefix.
+        Always think of Trie Data Structure.
