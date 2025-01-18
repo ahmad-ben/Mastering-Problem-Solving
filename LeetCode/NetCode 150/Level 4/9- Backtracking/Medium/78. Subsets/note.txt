@@ -1,0 +1,55 @@
+The Used Algorithmic Approach in Neetcode Backtracking Solution:
+  Backtracking:
+    What is it:
+      Problem-solving technique. 
+      Commonly used to find all or some solutions to a problem by exploring all possibilities. 
+        It does this in a depth-first manner -often called DFS-. 
+      It is not necessarily a pattern like other common coding patterns:
+        Sliding window, two pointers.
+          More of a general algorithmic approach or strategy.
+      Powerful algorithmic technique used to solve problems that involve:
+        Searching through multiple possibilities.
+    Key Characteristics:
+      Explores all possible solutions: 
+        Backtracking tries to build a solution step by step. 
+          By making a decision at each step, then exploring all possibilities for the next step.
+      Recursion: 
+        The approach often uses recursion to explore decisions at different levels.
+          Making it closely related to depth-first search -DFS-.
+      Pruning: 
+        During the process, if a solution is found to be invalid or unpromising:
+          It backtracks by undoing the previous decision and trying a different option.
+      Solving combinatorial problems: 
+        Backtracking is typically applied to problems where you're trying to generate: 
+          all combinations. 
+          Permutations.
+          Subsets.
+            Like the current problem we have.
+          Problems that involve a search space that can be traversed using recursive choices.
+    How It Works:
+      Involves making a sequence of choices. 
+        At each step: 
+          You make a choice.
+          Recursively explore all possibilities that arise from that choice.
+          Backtrack if necessary -return to the previous choice level-.
+      If a particular sequence of choices doesn't lead to a solution.
+        The algorithm undoes the last choice -backtracks- and tries another possibility.
+      The process continues until a solution is found or all possibilities have been explored.
+    General Time/Space Complexity:
+      Time Complexity: 
+        Generally, the time complexity of backtracking algorithms is O(2ⁿ). 
+          Where n is the number of elements.
+            Because it explores all possible subsets or combinations. 
+          Each decision leads to two options: include or exclude.
+      Space Complexity: 
+        The space complexity is often O(n). 
+          Because of: 
+            The space used by the recursive call stack.
+            The path being built during the backtracking.
+  Time And Space Complexity:
+    Neetcode Solutions:
+      Time Complexity value is O(n * 2ⁿ)
+      Space Complexity value is O(n) 
+    My Solution:
+      Time Complexity value is O(2ⁿ)
+      Space Complexity value is O(2ⁿ) 
