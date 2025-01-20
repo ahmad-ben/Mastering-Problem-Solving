@@ -1,0 +1,13 @@
+The Used Algorithmic Approach:
+  Backtracking.
+  Time And Space Complexity:
+    Neetcode abnd My Sorted Array Solutions:
+      Time Complexity value is O(n * 2ⁿ)
+      Space Complexity value is O(n)
+        `n` for the recursive function.
+        We didn't count the output space.
+    My Other Solutions:
+      Time Complexity value is O(n * k log k)
+      Space Complexity value is O(n)
+        `n` for the recursive function.
+        We didn't count the output space.
