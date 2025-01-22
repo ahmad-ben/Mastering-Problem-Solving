@@ -71,7 +71,6 @@ const createBoardCharPaths = (rowIdx, colIdx, currWordsTrie, board, foundWords) 
 
       strVal = strVal.slice(0, -1);
       indicesSet.delete(indicesAsString);
-      currWordsTrie.characters = {};
   };
 
   createBoardTriePaths(rowIdx, colIdx, currWordsTrie);
