@@ -1,0 +1,10 @@
+The Used Algorithmic Approach:
+  Backtracking.
+  Time And Space Complexity:
+    Time Complexity value is O(n * 2ⁿ)
+    Space Complexity value is O(n)
+  Takeaway:
+    If you apply the backtracking technique with two functions think of the following:
+      What is my base case.
+      What i should pass to each function of the two function.
+        What the changes i should apply between the two functions to achieve the purpose.
