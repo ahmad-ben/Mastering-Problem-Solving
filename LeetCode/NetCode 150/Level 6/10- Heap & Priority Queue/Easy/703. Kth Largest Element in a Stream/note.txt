@@ -1,0 +1,18 @@
+The used Data Structure:
+  Priority Queue / Min Heap.
+    A priority queue is a type of queue that arranges elements based on their priority values.
+  Time And Space Complexity:
+    My Solution:
+    Time Complexity value is:
+      O(n log n) for Constructor fun. 
+      O(n) for Add fun.
+    Space Complexity value is:
+      O(1) for Constructor fun.
+      O(n) for Add fun.
+    Neetcode Solution:
+    Time Complexity value is:
+      O(n log k) for Constructor fun. 
+      O(log k) for Add fun.
+    Space Complexity value is:
+      O(k) for Constructor fun.
+      O(1) for Add fun.
