@@ -1,0 +1,13 @@
+The used Data Structure:
+  Priority Queue / Max Heap.
+  Time And Space Complexity:
+    Time Complexity value is O(n log n).
+    Space Complexity value is O(n).
+  Takeaway:
+    If you want to make a Min Priority Queue act as a Max Priority Queue think of:
+      Add the element with the negative equivalents of their priorities values. 
+      Example:
+        If you have: 
+          {element: "a", priority: 3}
+        Add:
+          {element: "a", priority: -3}
