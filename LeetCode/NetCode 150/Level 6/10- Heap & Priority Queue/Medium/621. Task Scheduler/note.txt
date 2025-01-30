@@ -1,0 +1,12 @@
+The used Data Structure:
+  Priority Queue / Max Heap.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+      `n` is the Task number.
+    Space Complexity value is O(1).
+      we have at most 26 different characters.
+  Takeaway:
+    When you are in a case when: 
+      You have a set of values and you want to update them each time.
+        You can think of:
+          Have a global value to simulate the process, instead of looping over all of them.
