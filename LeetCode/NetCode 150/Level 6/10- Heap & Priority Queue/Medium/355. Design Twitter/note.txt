@@ -1,0 +1,41 @@
+The used Data Structure:
+  Priority Queue / Max Heap + Set + Map...
+  Time And Space Complexity:
+    My Solution:
+      Twitter function:
+        Time Complexity value is O(1).
+        Space Complexity value is O(500) ≈ O(1).
+      postTweet function:
+        Time Complexity value is O(f log f).
+        Space Complexity value is O(f).
+          `f` is the number of follower the user has. 
+      getNewsFeed function:
+        Time Complexity value is O(10 log f) ≈ O(log f).
+        Space Complexity value is O(1).
+      follow function:
+        Time Complexity value is O(p log p).
+        Space Complexity value is O(p).
+          `p` is the number of tweets from followees.
+      unfollow function:
+        Time Complexity value is O(n).
+        Space Complexity value is O(n).
+          `n` is the Max Priority Queue size.
+    Neetcode Solution:
+      Twitter constructor function:
+        Time Complexity value is O(1).
+        Space Complexity value is O(1).
+      postTweet function:
+        Time Complexity value is O(1).
+        Space Complexity value is O(1).
+      getNewsFeed function:
+        Time Complexity value is O(n).
+        Space Complexity value is O(n * m + n * m + n).
+      follow function:
+        Time Complexity value is O(1).
+        Space Complexity value is O(1).
+      unfollow function:
+        Time Complexity value is O(1).
+        Space Complexity value is O(1).
+          `n` is the total number of followees of a user.
+          `m` maximum user tweets -Max is 10-.
+          `N` Total number of users.
