@@ -39,3 +39,10 @@ The used Data Structure:
           `n` is the total number of followees of a user.
           `m` maximum user tweets -Max is 10-.
           `N` Total number of users.
+  Takeaway:
+    If you have: 
+      A type of Priority Queue, for example a Max one.
+      And you want to remove the smallest value, think of the Min Priority Queue.
+        It can do this for you.
+          Always if you can't achieve a specific behavior with MaxPQ think of the Opposite.
+            Or maybe another Data Structure to help, and vice versa.
