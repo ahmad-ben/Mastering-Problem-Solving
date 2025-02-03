@@ -1,0 +1,5 @@
+The used Data Structure:
+  Graph.
+  Time And Space Complexity:
+    Time Complexity value is O(n * m).
+    Space Complexity value is O(n * m).
