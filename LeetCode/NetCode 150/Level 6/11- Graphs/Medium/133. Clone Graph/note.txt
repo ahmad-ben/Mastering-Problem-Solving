@@ -1,0 +1,7 @@
+The used Data Structure:
+  Graph.
+  Time And Space Complexity:
+    Time Complexity value is O(v + e).
+    Space Complexity value is O(v).
+      `v` represents the vertices.
+      `n` represents the neighbors.
