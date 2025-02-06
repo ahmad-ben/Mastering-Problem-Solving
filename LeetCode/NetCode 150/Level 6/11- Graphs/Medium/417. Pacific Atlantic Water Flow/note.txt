@@ -1,0 +1,12 @@
+The used Data Structure:
+  Graph.
+  Time And Space Complexity:
+    My Solution:
+      Time Complexity value is O(n * m)².
+      Space Complexity value is O(n * m).
+    Neetcode Naive Solution:
+      Time Complexity value is O(n * m * 4ⁿ*ᵐ).
+      Space Complexity value is O(n * m).
+    Neetcode Optimal Solution:
+      Time Complexity value is O(n * m).
+      Space Complexity value is O(n * m).
