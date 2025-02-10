@@ -1,0 +1,9 @@
+The used Data Structure:
+  Graph.
+  Time And Space Complexity:
+    My Solution:
+      Time Complexity value is O(v * log v).
+      Space Complexity value is O(v).
+    Neetcode Solution:
+      Time Complexity value is O(e * (v + e)).
+      Space Complexity value is O(v + e).
