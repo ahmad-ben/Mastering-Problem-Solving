@@ -1,0 +1,9 @@
+The used Data Structure:
+  Graph.
+  Time And Space Complexity:
+    My Naive Solution:
+      Time Complexity value is O(n² * m).
+      Space Complexity value is O(n).
+    Other Solutions:
+      Time Complexity value is O(n * m²).
+      Space Complexity value is O(n * m²).
