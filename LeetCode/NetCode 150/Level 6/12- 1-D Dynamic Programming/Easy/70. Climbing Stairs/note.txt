@@ -1,0 +1,11 @@
+The used Algorithmic Paradigm:
+  Dynamic programming. 
+    Optimization technique that improves recursive solutions by: 
+      Storing results of subProblems to avoid repetitive work we know its result.
+  Time And Space Complexity:
+    My Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(n).
+    Neetcode Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(1).
