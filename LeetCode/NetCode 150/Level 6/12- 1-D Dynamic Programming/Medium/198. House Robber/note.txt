@@ -1,0 +1,9 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    My Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(n).
+    Other Solutions:
+      Time Complexity value is O(n).
+      Space Complexity value is O(1).
