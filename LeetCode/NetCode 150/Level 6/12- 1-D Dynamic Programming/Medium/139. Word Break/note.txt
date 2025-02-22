@@ -1,0 +1,9 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    My Optimal Solution And Neetcode Solution:
+      Time Complexity value is O(n * m * t).
+      Space Complexity value is O(n).
+        `n` represents the length of the word we are searching for.
+        `m` represents the number of the words in our dictionary.
+        `t` represents the longest dictionary word length.
