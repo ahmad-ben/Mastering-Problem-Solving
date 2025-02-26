@@ -1,0 +1,8 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    My Optimal Solution And Neetcode Solution:
+      Time Complexity value is O(n * t).
+      Space Complexity value is O(t).
+        `n` represents the array length.
+        `t` represents the target value -total sum/ 2-.
