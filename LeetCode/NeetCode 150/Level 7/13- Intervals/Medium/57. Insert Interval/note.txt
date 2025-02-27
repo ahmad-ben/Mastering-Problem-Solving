@@ -1,0 +1,8 @@
+What are intervals:
+  An interval comprises the numbers lying between two specific given numbers. 
+  For example: 
+    The set of numbers x satisfying 0 ≤ x ≤ 5 is an interval that contains:
+      0, 5, and all numbers between 0 and 5.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is O(1).
