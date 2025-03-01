@@ -1,0 +1,15 @@
+The used Algorithm:
+  Greedy Algorithm:
+    Is any algorithm that follows the problem-solving heuristic of: 
+      Making the locally optimal choice at each stage.
+  Time And Space Complexity:
+    My Naive Solution:
+      Time Complexity value is O(n²).
+      Space Complexity value is O(n).
+    My Solution:
+      Time Complexity value is O(n log n).
+      Space Complexity value is O(n).
+    Neetcode Solution:
+      Time Complexity value is O(n log n).
+      Space Complexity value is O(n) or O(1).
+        Depending on the sorting algorithm.
