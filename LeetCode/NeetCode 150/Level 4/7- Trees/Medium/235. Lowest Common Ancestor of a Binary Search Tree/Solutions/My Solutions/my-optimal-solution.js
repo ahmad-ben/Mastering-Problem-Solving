@@ -1,4 +1,4 @@
-// Saw the general idea from Netcode solution video.
+// Saw the general idea from Neetcode solution video.
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
