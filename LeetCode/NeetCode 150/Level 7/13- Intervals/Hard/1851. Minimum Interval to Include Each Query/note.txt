@@ -1,0 +1,6 @@
+Time And Space Complexity:
+  My Naive Solution 4 and Neetcode Solution:
+    Time Complexity value is O(n log n * m log m).
+    Space Complexity value is O(n + m).
+      `m` represents the length of the queries array.
+      `n` represents the length of the intervals array.
