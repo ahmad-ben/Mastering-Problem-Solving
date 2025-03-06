@@ -1,0 +1,9 @@
+The used Algorithm:
+  Greedy Algorithm.
+  Time And Space Complexity:
+    My Solution:
+      Time Complexity value is O(n²).
+      Space Complexity value is O(1).
+    My Optimal Solution And Neetcode Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(1).
