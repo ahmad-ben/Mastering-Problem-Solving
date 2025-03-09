@@ -1,0 +1,5 @@
+Time And Space Complexity:
+  Time Complexity value is O(n * m)
+  Space Complexity value is O(n)
+    `n` represents the queries array length.
+    `m` represents the points array length.
