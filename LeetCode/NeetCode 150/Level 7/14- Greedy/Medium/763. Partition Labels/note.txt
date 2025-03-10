@@ -1,0 +1,8 @@
+The used Algorithm:
+  Greedy Algorithm.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is O(m).
+      `n` represents the length of the string. 
+      `m` represents the number of unique characters in the string.
+        At most 26, so we can say it's O(1).
