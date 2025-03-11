@@ -1,0 +1,7 @@
+The used Algorithm:
+  Greedy Algorithm.
+  Time And Space Complexity:
+    Time Complexity value is O(E logV).
+    Space Complexity value is O(V + E).
+      `V` represents the Vertices number.
+      `E` represents the Edges number.
