@@ -1,0 +1,6 @@
+The used Algorithm:
+  Greedy Algorithm.
+  Time And Space Complexity:
+    Time Complexity value is O(E logE).
+    Space Complexity value is O(E).
+      `E` represents the tickets number -Edges-.
