@@ -1,0 +1,9 @@
+Time And Space Complexity:
+  My Solution:
+    Time Complexity value is O(n²)
+    Space Complexity value is O(1)
+  My Optimal Solution:
+    Time Complexity value is O(n)
+    Space Complexity value is O(n)
+      `n` represents the queries array length.
+      `m` represents the points array length.
