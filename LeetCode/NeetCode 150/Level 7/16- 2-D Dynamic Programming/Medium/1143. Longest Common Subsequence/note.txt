@@ -1,0 +1,11 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    My Solution:
+      Time Complexity value is O(m * n).
+      Space Complexity value is O(n).
+    Neetcode Solution:
+      Time Complexity value is O(m * n).
+      Space Complexity value is O(m * n).
+        `n` represents the length of the short string.
+        `m` represents the length of the long string.
