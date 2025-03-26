@@ -1,0 +1,8 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    My Solution 3 And Neetcode Solution:
+      Time Complexity value is O(n * a).
+      Space Complexity value is O(n).
+        `n` represents the coins array items number.
+        `a` represents the amount value.
