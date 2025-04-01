@@ -1,0 +1,1 @@
+const convertTemperature = cls => [cls + 273.15, cls * 1.80 + 32.00];
