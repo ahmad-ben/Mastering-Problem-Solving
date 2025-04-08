@@ -1,0 +1,5 @@
+Time And Space Complexity:
+  Time Complexity value is O(n)
+  Space Complexity value is O(n + m)
+    `n` Represent the jewels array length.
+    `m` Represent the stones array length.
