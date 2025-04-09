@@ -1,0 +1,7 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    Time Complexity value is O(m * n).
+    Space Complexity value is O(m * n).
+      `n` represents the length of the word 1.
+      `m` represents the length of the word 2.
