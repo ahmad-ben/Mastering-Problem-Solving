@@ -1,0 +1,7 @@
+The used Algorithmic Paradigm:
+  Dynamic programming.
+  Time And Space Complexity:
+    My Solution and Neetcode Solution: 
+      Time Complexity value is O(n³).
+      Space Complexity value is O(n²).
+        `n` represents the array length.
