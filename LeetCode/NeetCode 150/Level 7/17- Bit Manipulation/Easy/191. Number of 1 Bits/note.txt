@@ -1,0 +1,18 @@
+The used Technique:
+  Bit Manipulation.
+  Time And Space Complexity:
+    My Solution 1:
+      Time Complexity value is O(log n).
+        toString(2) takes almost log n time.
+      Space Complexity value is O(log n).
+        toString(2) creates a binary string of length log n.
+    My Solution 2 And Neetcode Solution:
+      Time Complexity value is O(log n).
+      Space Complexity value is O(1).
+    My Solution 3:
+      Time Complexity value is O(k).
+        `k` is the number of the set bits (bit with value 1).
+        `k` can be up to log n in the worst case.
+          When all bits are set.
+      Space Complexity value is O(1).
+        `n` is the number value.
