@@ -1,0 +1,6 @@
+The used Techniques:
+  Bit Manipulation And Dynamic Programming.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is O(n).
+     `n` represents the number value.
