@@ -1,0 +1,14 @@
+The used Technique:
+  Bit Manipulation.
+  Time And Space Complexity:
+    My Solution 1:
+      Time Complexity value is O(n²).
+      Space Complexity value is O(1).
+    My Solution 2:
+      Time Complexity value is O(n log n).
+      Space Complexity value is O(1) / O(n).
+        Depending on the sorting algorithm.
+    My Solution 3 And 4 And Neetcode Solution:
+      Time Complexity value is O(n).
+      Space Complexity value is O(1).
+        `n` is the array length value.
