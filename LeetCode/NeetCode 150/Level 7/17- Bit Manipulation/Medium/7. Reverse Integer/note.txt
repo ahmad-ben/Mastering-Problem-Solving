@@ -1,0 +1,6 @@
+The used Techniques:
+  Bit Manipulation.
+  Time And Space Complexity:
+    Time Complexity value is O(n).
+    Space Complexity value is O(1).
+      `n` represents the digits number of the input number.
