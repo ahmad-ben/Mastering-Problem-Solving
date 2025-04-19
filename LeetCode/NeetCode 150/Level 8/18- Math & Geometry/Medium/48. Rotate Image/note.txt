@@ -1,0 +1,4 @@
+Time And Space Complexity:
+  Time Complexity value is O(n²).
+  Space Complexity value is O(1).
+    `n` represents the array items length.
