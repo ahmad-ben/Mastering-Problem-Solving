@@ -1,0 +1,1 @@
+var minOperations = (nArr, k) => nArr.reduce((acc, cVal) => acc + cVal) % k;
