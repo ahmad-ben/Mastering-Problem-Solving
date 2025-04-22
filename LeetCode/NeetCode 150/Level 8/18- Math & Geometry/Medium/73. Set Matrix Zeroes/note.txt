@@ -1,0 +1,9 @@
+Time And Space Complexity:
+  My Solution 1:
+    Time Complexity value is O(m * n).
+    Space Complexity value is O(m + n).
+  My Solution 2 And Neetcode Solution:
+    Time Complexity value is O(m * n).
+    Space Complexity value is O(1).
+      `m` represents the array length. 
+      `n` represents the array items length. 
