@@ -1,0 +1,3 @@
+Time And Space Complexity:
+  Time Complexity value is O(n).
+  Space Complexity value is O(1).
