@@ -1,0 +1,1 @@
+var myPow = (x, n) => x ** n;

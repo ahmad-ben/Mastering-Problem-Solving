@@ -1,0 +1,1 @@
+const myPow = (x, n) => Math.pow(x, n);
