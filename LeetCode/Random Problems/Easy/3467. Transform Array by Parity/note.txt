@@ -1,0 +1,7 @@
+Time And Space Complexity:
+  Solution 1:
+    Time Complexity value is O(n²)
+    Space Complexity value is O(n)
+  Solution 2:
+    Time Complexity value is O(n)
+    Space Complexity value is O(n)
