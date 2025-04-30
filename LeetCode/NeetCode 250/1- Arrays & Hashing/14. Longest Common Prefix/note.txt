@@ -1,0 +1,5 @@
+Time And Space Complexity:
+  Time Complexity value is O(n * m)
+  Space Complexity value is O(1) 
+    `n` represents the strings number.
+    `m` represents the length of the shortest string.
