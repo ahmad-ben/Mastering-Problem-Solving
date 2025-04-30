@@ -1,0 +1,3 @@
+  LeetCode\NeetCode 250\1- Arrays & Hashing
+
+  Finish by Neetcode video solution think of better solution...
