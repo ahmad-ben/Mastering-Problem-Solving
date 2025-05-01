@@ -1,3 +1,8 @@
-  LeetCode\NeetCode 250\1- Arrays & Hashing
-
-  Finish by Neetcode video solution think of better solution...
+Todo:
+  1:
+    LeetCode\NeetCode 250\1- Arrays & Hashing
+    Finish by Neetcode video solution think of better solution...
+  2:
+    1929. Concatenation of Array
+      This problem in the 250 neetcode list but i already did it.
+        I should fined an empty time to do it.
