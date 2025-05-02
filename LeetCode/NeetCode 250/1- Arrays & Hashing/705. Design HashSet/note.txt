@@ -1,0 +1,18 @@
+Time And Space Complexity:
+  My Solution 3 and Neetcode Solution:
+    MyHashSet constructor:
+      Time Complexity value is O(1)
+      Space Complexity value is O(1)
+        The space is 10000, so basically O(1).
+    add:
+      Time Complexity value is O(1) or O(n)
+        If we hav a short or very long chain in worst case.
+      Space Complexity value is O(1) 
+    remove:
+      Time Complexity value is O(1) or O(n)
+        If we have few nodes to traverse or we have a hash collisions -worst-case scenario-.
+      Space Complexity value is O(1) 
+    contains:
+      Time Complexity value is O(1) or O(n)
+      Space Complexity value is O(1) 
+        `n` represents the linked list nodes number.
